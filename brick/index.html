@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brick Website</title>
 
-    <!-- Compiled CSS from SCSS (this includes Bootstrap + custom styles) -->
+    <!-- Compiled CSS from SCSS -->
     <link rel="stylesheet" href="assets/css/sass/index.css">
 </head>
 
@@ -97,7 +97,7 @@
 
         <!-- Left links -->
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
             <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
             <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
@@ -113,7 +113,7 @@
     </div>
     </nav>
 
-<section id="about">
+<section id="">
 <div class="container my-5">
   <div class="d-flex flex-column flex-lg-row align-items-center rounded-3 border shadow-lg p-4 p-lg-5 bg-light">
 
@@ -126,7 +126,7 @@
         Rýchlo navrhujte a prispôsobujte responzívne mobilné stránky s Bootstrapom, najpopulárnejším front-end open source toolkit-om, ktorý obsahuje Sass premenné, mixiny, responzívny grid systém, predpripravené komponenty a silné JavaScript pluginy.
       </p>
       <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <button id="contactBtn" type="button" class="btn btn-secondary bg-dark btn-lg px-4 shadow-sm">
+        <button id="contactBtn" type="button" class="btn bg-dark text-light btn-lg px-4 shadow-sm">
           Napíšte nám
         </button>
       </div>
@@ -135,12 +135,37 @@
     <!-- Obrázok -->
     <div class="flex-shrink-0 ms-lg-3" style="max-width: 100%;">
       <img src="assets/img/vlad-kutepov-QlDF8uCBhfE-unsplash.jpg" 
-           class="img-fluid rounded-3 w-100" 
+           class="img-fluid rounded-3 w-100 shadow-lg" 
            alt="Image" 
            style="max-width: 500px;">
     </div>
   </div>
 </div>
+</section>
+
+<section id="about">
+<main class="container col-xxl-8 px-4 py-5">
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-4">
+    <div class="col-10 col-sm-8 col-lg-6">
+      <img
+        src="assets/img/drew-coffman-jUOaONoXJQk-unsplash.jpg"
+        alt="tehelna stena"
+        class="d-block mx-lg-auto img-fluid rounded shadow-lg"
+        width="700"
+        height="500"
+      >
+    </div>
+
+    <div class="col-lg-6">
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Tehlicka</h1>
+      <p class="lead">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Earum ducimus vitae sed aut rerum nihil eligendi ratione officia.
+        Dicta blanditiis modi quas exercitationem asperiores beatae quibusdam eum id fugiat sint?
+      </p>
+    </div>
+  </div>
+</main>
 </section>
 
 <section id="features">
@@ -161,7 +186,7 @@
         going until we run out of words.
       </p>
 
-      <a href="#" class="btn btn-primary btn-lg">
+      <a href="#" class="btn bg-dark text-light btn-lg px-4 shadow-sm">
         Primary button
       </a>
     </div>
@@ -174,7 +199,7 @@
         <div class="col d-flex flex-column gap-2">
           <div
             class="feature-icon-small d-inline-flex align-items-center
-                   justify-content-center text-bg-primary bg-gradient
+                   justify-content-center text-bg-dark bg-gradient
                    fs-4 rounded-3">
             <svg class="bi" width="1em" height="1em" aria-hidden="true">
               <use xlink:href="#collection"></use>
@@ -194,7 +219,7 @@
         <div class="col d-flex flex-column gap-2">
           <div
             class="feature-icon-small d-inline-flex align-items-center
-                   justify-content-center text-bg-primary bg-gradient
+                   justify-content-center text-bg-dark bg-gradient
                    fs-4 rounded-3">
             <svg class="bi" width="1em" height="1em" aria-hidden="true">
               <use xlink:href="#gear-fill"></use>
@@ -214,7 +239,7 @@
         <div class="col d-flex flex-column gap-2">
           <div
             class="feature-icon-small d-inline-flex align-items-center
-                   justify-content-center text-bg-primary bg-gradient
+                   justify-content-center text-bg-dark bg-gradient
                    fs-4 rounded-3">
             <svg class="bi" width="1em" height="1em" aria-hidden="true">
               <use xlink:href="#speedometer"></use>
@@ -234,7 +259,7 @@
         <div class="col d-flex flex-column gap-2">
           <div
             class="feature-icon-small d-inline-flex align-items-center
-                   justify-content-center text-bg-primary bg-gradient
+                   justify-content-center text-bg-dark bg-gradient
                    fs-4 rounded-3">
             <svg class="bi" width="1em" height="1em" aria-hidden="true">
               <use xlink:href="#table"></use>
@@ -258,55 +283,18 @@
 </div>
 </section>
 
-<section id="faq">
-<main class="container col-xxl-8 px-4 py-5">
-  <div class="row flex-lg-row-reverse align-items-center g-5 py-4">
-    <div class="col-10 col-sm-8 col-lg-6">
-      <img
-        src="assets/img/drew-coffman-jUOaONoXJQk-unsplash.jpg"
-        alt="tehelna stena"
-        class="d-block mx-lg-auto img-fluid rounded"
-        width="700"
-        height="500"
-      >
-    </div>
-
-    <div class="col-lg-6">
-      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Tehlicka</h1>
-      <p class="lead">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Earum ducimus vitae sed aut rerum nihil eligendi ratione officia.
-        Dicta blanditiis modi quas exercitationem asperiores beatae quibusdam eum id fugiat sint?
-      </p>
-    </div>
-  </div>
-</main>
-</section>
-
 <section id="portfolio">
 <main class="container col-xxl-8 px-4 py-5">
-  <div class="row flex-lg-row-reverse align-items-center g-5 py-4">
-    <div class="col-md-6">
-      <div class="h-100 p-5 text-bg-dark rounded-3">
-        <h2>Change the background</h2>
+  <div class="row flex-lg-row-reverse justify-content-center align-items-center g-5 py-4">
+    <div class="col-10 col-sm-8 col-lg-6">
+      <div class="h-100 p-4 text-bg-dark rounded-3">
+        <h2>Nase portfolium</h2>
         <p>
-          Swap the background-color utility and add a <code>.text-*</code> color utility
+          Swap the background-color utility and add a color utility
           to mix up the jumbotron look. Then, mix and match with additional component
           themes and more.
         </p>
         <button class="btn btn-outline-light" type="button">Example button</button>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="h-100 p-5 bg-body-tertiary border rounded-3">
-        <h2>Add borders</h2>
-        <p>
-          Or, keep it light and add a border for some added definition to the boundaries
-          of your content. Be sure to look under the hood at the source HTML here as we've
-          adjusted the alignment and sizing of both column's content for equal-height.
-        </p>
-        <button class="btn btn-outline-secondary" type="button">Example button</button>
       </div>
     </div>
   </div>
